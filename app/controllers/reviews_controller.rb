@@ -1,4 +1,4 @@
-class ReviewsController < ApplicationControllerdef
+class ReviewsController < ApplicationController
   before_action :set_restaurant
   def new
     @review = Review.new
